@@ -1,0 +1,12 @@
+Package: qrsvm
+Type: Package
+Title: SVM Quantile Regression with the Pinball Loss 
+Version: 0.1.0
+Author: Thilo Hofmeister
+Maintainer: Thilo Hofmeister <thilo.hofmeister@uni-hohenheim.de>
+Description: A package for Quantile Regression (QR) using Support Vector Machines under the Pinball-Loss.    Estimation is based on "Nonparametric Quantile Regression" by I. Takeuchi,  Q.V.Le , T. Sears, A.J.Smola (2004)    Implementation relies on R´s "quadprog""package, package "kernlab" Kernelfunctions and package "Matrix" nearPD to find next Postive definite Kernelmatrix.    Package estimates quantiles individually but an Implementation of non crossing constraints coming soon.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: kernlab, quadprog, Matrix
+RoxygenNote: 6.0.1
